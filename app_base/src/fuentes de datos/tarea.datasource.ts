@@ -2,15 +2,16 @@ import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
 const config = {
-  name: 'tarea',
-  connector: 'mssql',
-  url: 'mssql://Fer:Fernando19@DESKTOP-15UB8OD/Tarea#3',
-  host: 'DESKTOP-15UB8OD',
-  port: 1433,
-  user: 'Fer',
-  password: '',
-  database: 'Tarea#3'
-};
+	  name: 'Tarea3',
+	  connector: 'mssql',
+	  url: 'mssql://jackseni:jackseni@DESKTOP-2NLKVJO/Tarea3,
+	  host: 'DESKTOP-2NLKVJO',
+	  port: 1433,
+	  user: 'jackseni',
+	  password: 'jackseni',
+	  database: 'Tarea3'
+	};
+
 
 // Observe application's life cycle to disconnect the datasource when
 // application is stopped. This allows the application to be shut down
